@@ -20,23 +20,15 @@ Installation
 1. Clone Repository
 git clone https://github.com/tariqul966/url-shortener.git
 2. Move Project
-
 Place the project inside your web server directory:
-
 xampp/htdocs/url
 3. Create Database
-
 Create a database named:
-
 url_shortener
-
 Import:
-
 schema.sql
 4. Configure Database
-
 Edit:
-
 db.php
 $conn = new mysqli(
     "localhost", // database host
