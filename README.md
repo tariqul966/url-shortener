@@ -18,7 +18,7 @@ JavaScript
 Apache Web Server
 Installation
 1. Clone Repository
-git clone https://github.com/yourusername/url.git
+git clone https://github.com/tariqul966/url-shortener.git
 2. Move Project
 
 Place the project inside your web server directory:
