@@ -40,6 +40,9 @@ $conn = new mysqli(
 5. If you upload it in cpanel then you need to edit .htaccess file or create a .htaccess file on that directory.
 
 RewriteEngine On
+
 RewriteCond %{REQUEST_FILENAME} !-f
+
 RewriteCond %{REQUEST_FILENAME} !-d
+
 RewriteRule ^([a-zA-Z0-9]+)$ redirect.php?code=$1 [L,QSA]
